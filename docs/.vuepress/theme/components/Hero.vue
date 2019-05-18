@@ -4,7 +4,7 @@
     <img class="show-dark" width="946" height="auto" src="../images/hero-dark.jpg" />
 
     <div class="hero-block beginners sm-hide">
-      <router-link class="block header" to="/beginners/">→ Motivation</router-link>
+      <router-link class="block header" to="/motivation/">→ Motivation</router-link>
       <div class="content">Learn about SHA3<br/>and Proof of Work.</div>
     </div>
 
