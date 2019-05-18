@@ -7,6 +7,9 @@ sidebarDepth: 0
 
 # Learn about Ethereum
 
+![Network](/network.gif)
+
+
 **Welcome to [ethereum.org/learn](/learn/), a set of resources to help you learn more about Ethereum.** This page includes technical **and** non-technical articles, guides, and resources. If you’re totally new to Ethereum, [we suggest you start here](/beginners/).
 
 Here are some excellent starting points:

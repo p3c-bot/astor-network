@@ -3,26 +3,26 @@ title: Motivation
 lang: en-US
 ---
 
-# The History of Astor
+# The History of Astor Testnet
 
 Let's start with the motivation behind the Astor SHA3 Testnet.
 
 **In early January 2019, Ethereum Classic was [51% attacked](https://medium.com/@slowmist/the-analysis-of-etc-51-attack-from-slowmist-team-728596d76ead) twice.**
 - Attackers were able to acquire 51+% of the Ethash power on the network.
 - They used this to reverse a series of deposits that they had made on exchanges.
-- Many users throughout the ecosystem tried to mine on ETC, but were unable to respond quickly enough to prevent the attack.
+- Many users throughout the ecosystem tried to mine ETC to protect it, but were unable to respond quickly enough to prevent the attack.
 
-**A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13). The purpose was to change ETC's algorithm to something safer, and that more community members could fairly mine. That algorithm was SHA3 (also called Keccak256)**
+**A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13) was proposed. Its goal was to change ETC's proof of work algorithm to something safer, which more community members could fairly mine. That algorithm is SHA3 (also called Keccak256).**
 
 There were three main reasons behind the proposal: 
 
-**Strength.** Considered the current gold standard in terms of hashing algorithms, SHA3 is used throughout high performance and scientfic applications as a safe trustworthy algorithm. It was the product of decades of research by the Keccak team, and was the winner of NIST SHA3 desgination. Finally ETC would diversify from the same hashing algorithm as Ethereum.
-
-[Keccak Implementation Algorithm](https://keccak.team/files/Keccak-implementation-3.2.pdf)
-
-**Transparency.** The SHA3 algorithm has been throughly peer-reviewed and its implementation proven in hundreds of pages of avaialable documentation. Now all block producers around the world would have an even platform to competetitvely mine without having to worry about one team having an advantage over another. The 0xBitcoin community had been using SHA3 for around a year and had proven its viability as proof of work algorithm. 
+**Strength.** SHA3 is the current gold standard in terms of hashing algorithms, and it is widely used in high performance and scientfic applications to safely and efficeintly hash data. It was the product of decades of research by the Keccak team, and was the winner of NIST SHA3 competition. ECIP-1049 also recognizes the need for ETC to diversify away from the same hashing algorithm as Ethereum.
 
 ![Hash](/hash.png)
+
+**Transparency.** The SHA3 algorithm has been throughly peer-reviewed and its implementation verfied. With SHA3, block producers around the world have an even platform to competetitvely mine without having to worry about one team having an advantage over another. The 0xBitcoin community had been using SHA3 for over a year and has proven its viability as proof of work algorithm. 
+
+[Full Keccak Implementation Document](https://keccak.team/files/Keccak-implementation-3.2.pdf)
 
 **Realism.** The 51% attack revealed something important, that ETC was a minority chain and could be attacked at any moment. Because of this exchanges started requiring thousands of block confirmations to mitigate the risk. By switching to a new algorithm, that was both powerful and unused, ETC could achieve majority hashpower and protect itself.
 
@@ -46,3 +46,9 @@ Founder and CTO of [Torch](www.torch1.com) a Business Intelligence Platform for 
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/vN7NI0Oi79E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+[ECIP 1049 Github Thread](https://github.com/ethereumclassic/ECIPs/issues/13)
+
+[Why Ethereum Classic should Adopt Keccak256 for its Proof of Work Algorithm.](https://medium.com/@antsankov/ecip-1049-why-ethereum-classic-should-adopt-keccak256-for-its-proof-of-work-algorithm-e45aee32d8a9)
+
+[(pt. 2) Why Ethereum Classic should Adopt Keccak256 for its Proof of Work Algorithm.](https://medium.com/@antsankov/pt-2-ecip-1049-why-ethereum-classic-should-adopt-keccak256-for-its-proof-of-work-algorithm-24052ea6eed1)

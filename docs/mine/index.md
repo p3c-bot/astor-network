@@ -15,6 +15,7 @@ lang: en-US
 
 </div>
 
+![Mine](/mine.gif)
 
 ## 1. Use an application built on ethereum
 
