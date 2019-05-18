@@ -1,9 +1,9 @@
 ---
-title: Beginners
+title: Motivation
 lang: en-US
 ---
 
-# 👋 Welcome!
+# Welcome to Astor
 
 New to Ethereum? You’re in the right place. Let’s start with the big picture.
 

@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'ethereum.org',
-  description: 'Ethereum resources',
+  title: 'astor.host',
+  description: 'Astor Network Resources',
   themeConfig: {
     nav: [
-      { text: 'ethereum.org', link: '/' },
-      { text: 'Beginners', link: '/beginners/' },
-      { text: 'Use', link: '/use/' },
-      { text: 'Learn', link: '/learn/' },
-      { text: 'Build', link: '/build/' }
+      { text: 'astor.host', link: '/' },
+      { text: 'Motivation', link: '/motivation/' },
+      { text: 'Mine', link: '/mine/' },
+      { text: 'Node', link: '/node/' },
+      { text: 'Explore', link: '/explore/' }
     ]
   },
   head: [

@@ -4,23 +4,23 @@
     <img class="show-dark" width="946" height="auto" src="../images/hero-dark.jpg" />
 
     <div class="hero-block beginners sm-hide">
-      <router-link class="block header" to="/beginners/">→ Beginners</router-link>
-      <div class="content">Completely new<br/>to Ethereum?</div>
+      <router-link class="block header" to="/beginners/">→ Motivation</router-link>
+      <div class="content">Learn about SHA3<br/>and Proof of Work.</div>
     </div>
 
     <div class="hero-block learn sm-hide">
-      <router-link class="block header" to="/learn/">→ Learn</router-link>
-      <div class="content">Want to dig in and learn<br/>more about Ethereum?</div>
+      <router-link class="block header" to="/node/">→ Node</router-link>
+      <div class="content">Start running an<br/>Astor testnet node.</div>
     </div>
 
     <div class="hero-block use sm-hide">
-      <router-link class="block header" to="/use/">→ Use</router-link>
-      <div class="content">Want to start<br/>using Ethereum?</div>
+      <router-link class="block header" to="/mine/">→ Mine</router-link>
+      <div class="content">Start SHA3<br/>mining.</div>
     </div>
 
     <div class="hero-block build sm-hide">
-      <router-link class="block header" to="/build/">→ Build</router-link>
-      <div class="content">Looking to build<br/>on Ethereum?</div>
+      <router-link class="block header" to="/explore/">→ Explore</router-link>
+      <div class="content">See how Astor<br/> is being used.</div>
     </div>
   </div>
 </template>
