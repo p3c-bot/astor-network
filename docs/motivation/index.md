@@ -42,6 +42,8 @@ Founder and CTO of [Torch](www.torch1.com) a Business Intelligence Platform for 
 
 [Twitter](https://twitter.com/mseiler1)
 
+## Resources
+
 [Interview with Dr. Guido Bertoni](https://www.youtube.com/watch?v=vN7NI0Oi79E)
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/vN7NI0Oi79E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
