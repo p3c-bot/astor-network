@@ -9,8 +9,6 @@ lang: en-US
 
 ![](/astor.png)
 
-## Accomplishments
-
 **Achievements so far:**
 - [ECIP-1049 Moved to Accepted](https://github.com/ethereumclassic/ECIPs/issues/13)
 *January 2019*

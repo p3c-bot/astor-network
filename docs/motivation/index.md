@@ -8,11 +8,11 @@ lang: en-US
 Let's start with the motivation behind the Astor SHA3 Testnet.
 
 **In early January 2019, Ethereum Classic was [51% attacked](https://medium.com/@slowmist/the-analysis-of-etc-51-attack-from-slowmist-team-728596d76ead) twice.**
-- Attackers were able to acquire 51+% of the Ethash power on the network.
+- Attackers were able to acquire 51+% of the hash power (Ethash) on the network.
 - They used this to reverse a series of deposits that they had made on exchanges.
 - Many users throughout the ecosystem tried to mine ETC to protect it, but were unable to respond quickly enough to prevent the attack.
 
-**A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13) was proposed. Its goal was to change ETC's proof of work algorithm to something safer, which more community members could fairly mine. That algorithm is SHA3 (also called Keccak256).**
+**A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13) was proposed. Its goal was to change ETC's proof of work algorithm to something safer, simpler, and proven. That algorithm is SHA3 (also called Keccak256).**
 
 ![Astor Tiles](/tiles.png)
 
@@ -22,14 +22,14 @@ There were three main reasons behind the proposal:
 
 ![Hash](/hash.png)
 
-**Transparency.** The SHA3 algorithm has been throughly peer-reviewed and its implementation verfied. With SHA3, block producers around the world have an even platform to competetitvely mine without having to worry about one team having an advantage over another. The 0xBitcoin community had been using SHA3 for over a year and has proven its viability as proof of work algorithm. 
+**Transparency.** The SHA3 algorithm has been throughly peer-reviewed and its implementation verfied. With SHA3, block producers around the world have an even platform to competetitvely mine without having to worry about one team having an advantage over another. The 0xBitcoin community had been using SHA3 for over a year and has proven its viability as a proof of work algorithm. 
 
 [Full Keccak Implementation Document](https://keccak.team/files/Keccak-implementation-3.2.pdf)
 
-**Realism.** The 51% attack revealed something important, that ETC was a minority chain and could be attacked at any moment. Because of this exchanges started requiring thousands of block confirmations to mitigate the risk. By switching to a new algorithm, that was both powerful and unused, ETC could achieve majority hashpower and protect itself.
+**Realism.** The 51% attack revealed something important, that ETC was a minority chain and could be attacked at any moment. Because of this, exchanges started requiring thousands of block confirmations to mitigate the risk of 51% attacks. By switching to a new algorithm, both powerful and untapped by other chains, ETC could achieve majority hashpower and protect itself.
 
 # Team
-In May 2019, Alex, and Mike decided to collaborate on implementing ECIP-1049 over the 36 hour ETH NY hackathon. This site and code is a product of that collaboration.
+In May 2019, Alex Tsankov and Mike Seiler decided to collaborate on implementing ECIP-1049 over the 36 hour ETH NY hackathon. This site and code is a product of that collaboration.
 
 ### Alex Tsankov 
 
@@ -43,8 +43,8 @@ Founder and CTO of [Torch](www.torch1.com) a Business Intelligence Platform for 
 
 [Mike's Twitter](https://twitter.com/mseiler1)
 
-# Resources
-* [Interview with Dr. Guido Bertoni](https://www.youtube.com/watch?v=vN7NI0Oi79E)
+# Important Resources
+* [Interview with Dr. Guido Bertoni, Creator of Keccak](https://www.youtube.com/watch?v=vN7NI0Oi79E)
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/vN7NI0Oi79E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
