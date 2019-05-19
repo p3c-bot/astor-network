@@ -2,6 +2,8 @@
 title: Node
 lang: en-US
 ---
+![Astor Tiles](/tiles.png)
+
 ## Running an Astor Node
 To use the Astor network, you need to download a node. For the initial implementation we chose to use Parity, an Ethereum client written in Rust. To install the node, complete the following steps:
 
@@ -32,6 +34,13 @@ Make sure to change the `run.sh` to have the `-n` be the number of blocks you wa
 
 To go even further and track the stats of your node you can follow the steps below:
 
-10. TODO
+10. `git clone https://github.com/snissn/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
+11. `npm install`
+12. `export WS_SECRET=asdf`
+13. `npm run start`
+14. `cd .. && git clone https://github.com/snissn/eth-netstats && cd eth-netstats`
+15. `npm install`
+16. `export WS_SECRET=asdf`
+17. `npm run start`
 
 ![Network](/network.gif)

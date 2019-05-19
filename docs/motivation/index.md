@@ -14,7 +14,7 @@ Let's start with the motivation behind the Astor SHA3 Testnet.
 
 **A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13) was proposed. Its goal was to change ETC's proof of work algorithm to something safer, simpler, and proven. That algorithm is SHA3 (also called Keccak256).**
 
-![Astor Tiles](/tiles.png)
+![51](/51.png)
 
 There were three main reasons behind the proposal: 
 

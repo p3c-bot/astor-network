@@ -5,8 +5,8 @@ module.exports = {
     nav: [
       { text: 'astor.host', link: '/' },
       { text: 'Motivation', link: '/motivation/' },
-      { text: 'Mine', link: '/mine/' },
       { text: 'Node', link: '/node/' },
+      { text: 'Mine', link: '/mine/' },
       { text: 'Explore', link: '/explore/' }
     ]
   },
