@@ -1,76 +1,29 @@
 ---
-title: Use
+title: Mine
 lang: en-US
 ---
 
-# Using Ethereum
+# Mine on Astor (SHA3)
 
-<div class="featured">
+Currently, the only way to mine on Astor testnet is using our Python CPU miner. You can follow the tutorial here to start [CPU mining](/node/#using-a-miner-with-parity).
 
-  **Want to get started using Ethereum?** This page will give you the basic information you need.
+![Astor Tiles](/beaver.png)
 
-  1. [Use an application built on Ethereum](#_1-use-an-application-built-on-ethereum)
-  2. [What is ETH, and how do I get it?](#_2-what-is-eth-and-how-do-i-get-it)
-  3. [What is a wallet, and which one should I use?](#_3-what-is-a-wallet-and-which-one-should-i-use)
+The SHA3 algorithm was specfically designed by the Keccak team to be particularly efficient in hardware implementations. If you are interested in building a miner we suggest you use these resources:
 
-</div>
+* [Keccak Implementation documentation](https://keccak.team/files/Keccak-implementation-3.2.pdf), specfically Section 4.
+* [SHA3 Ethereum CPU Miner](https://github.com/snissn/ethereum-cpu-miner)
+* [Hardware Performance of SHA-3 Candidates using Multiple FPGA Architectures](https://web.archive.org/web/20120504073240/http://www.ecrypt.eu.org/hash2011/proceedings/hash2011_07.pdf).
+* [ECIP-1049 Proposal and Discussion](https://github.com/ethereumclassic/ECIPs/issues/13)
+* [Which cryptographic hash function does Ethereum use?](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use)
+* [NIST SHA3 Competition Proceedings](https://csrc.nist.gov/projects/hash-functions/sha-3-project)
+* [Ethereum EVM Schematic](https://blog.aragon.one/content/images/2018/11/eth_time_machine_graph.jpg)
+![Keccak](/keccak.jpg)
 
-![Mine](/mine.gif)
+If you would like to start immediately mining SHA3 for monetary gain, consider researching the 0xBitcoin project as a proving ground for mining hardware:
 
-## 1. Use an application built on ethereum
+* [0xBitcoin Homepage](https://0xbitcoin.org) - A mineable ERC-20 that uses SHA3 to mint tokens.
+* [Cosmic SHA3 Miner](https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/) - A good template for GPU-optimized SHA3 mining software.
+* [0xBTC mining stats](https://0x1d00ffff.github.io/0xBTC-Stats/?page=graphs#difficulty) - Tracks difficulty and mining pools over time.
 
-The best way to get started with Ethereum is to jump right in! There are many Ethereum-based applications that you can use today.
-
-Here are just a few apps built on Ethereum - we rotate this list frequently!
-
-
-- [Gitcoin](https://gitcoin.co), a network of incentivized open-source developers
-- [Cent](https://beta.cent.co), a social network where you earn money by posting
-- [Veil](https://veil.market), a trading platform that lets you place bets on real world events
-- [CryptoKitties](https://www.cryptokitties.co), a game where you collect and breed digital collectible cats
-- [DAI](https://makerdao.com/en/), a stable cryptocurrency that holds value at $1 USD
-
-Some of these applications might require a wallet - [see the section below for more information.](./#_3-what-is-a-wallet-and-which-one-should-i-use)
-
-Interested in looking at more applications built on Ethereum?
-
-
-- [Built on Ethereum]([https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/](https://docs.ethhub.io/built-on-ethereum/built-on-ethereum/)) *Updated often - EthHub*
-- [40 Ethereum Apps You Can Use Right Now](https://media.consensys.net/40-ethereum-apps-you-can-use-right-now-d643333769f7) *Aug 15, 2018 - ConsenSys*
-- [Ethereum Dapps](https://www.stateofthedapps.com/rankings/platform/ethereum) *Updated often - State of the Dapps*
-
-
-## 2. What is ETH, and how do I get it?
-
-ETH is Ethereum's native currency. It is "digital money" that can be sent over the internet instantly and cheaply, and also be used in many Ethereum-based applications like the ones above.
-
-The easiest way to get ETH is to buy some. There are many cryptocurrency exchanges that will allow you to buy ETH, but the one you should use will depend on where you live and how you want to pay.
-
-For more information on how to buy ETH check out these guides:
-
-
-- [How to buy Ether (ETH)](https://support.mycrypto.com/how-to/getting-started/how-to-buy-ether-with-usd) *Updated often - MyCrypto*
-- [How to Buy Ether](https://docs.ethhub.io/using-ethereum/how-to-buy-ether/) *Updated often - EthHub*
-- [Ethereum, a Digital Currency](https://www.cryptokitties.co/faq#ethereum-a-digital-currency) *CryptoKitties*
-
-
-## 3. What is a wallet, and which one should I use?
-
-Wallets are applications that make it easy to hold and send ETH, as well as interact with applications built on Ethereum.
-
-Not sure what wallet to use? Start with these guides:
-
-
-- [Intro to Ethereum Wallets](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/) *Updated often - EthHub*
-- [Getting Started with MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-) *Dec 4, 2018 - MetaMask*
-- [How to Create a Wallet](https://support.mycrypto.com/getting-started/creating-a-new-wallet-on-mycrypto.html)  *Updated often - MyCrypto*
-- [Best Ethereum Wallets 2019: Hardware vs. Software vs. Paper](https://blockonomi.com/best-ethereum-wallets/) *Dec 15, 2018 - Blockonomi*
-
-Want to learn more about securely storing funds and managing private keys?
-
-
-- [Protecting Yourself and Your Funds](https://support.mycrypto.com/staying-safe/protecting-yourself-and-your-funds) *Updated often - MyCrypto*
-- [The keys to keeping your crypto safe](https://blog.coinbase.com/the-keys-to-keeping-your-crypto-safe-96d497cce6cf) *Jan 16, 2019 - Coinbase blog*
-- [How to Store Digital Assets on Ethereum](https://media.consensys.net/how-to-store-digital-assets-on-ethereum-a2bfdcf66bd0) *May 30, 2018 - ConsenSys*
-- [Do you really need a hardware wallet?](https://medium.com/ledger-on-security-and-blockchain/ledger-101-part-1-do-you-really-need-a-hardware-wallet-7f5abbadd945) *Sep 24, 2018 - Ledger*
-
+![Network](/mine.gif)
