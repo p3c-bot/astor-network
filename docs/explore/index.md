@@ -34,5 +34,5 @@ lang: en-US
 - SHA3 Mining Pool software.
 - Built in SHA3 instruction on mobile phones.  
 
-## Joule Token
+## Joule Token Concept
 Because Keccak is compute and not memory bound, the hash rate  of a network is proportional to the number of watts being used to secure the network. Over time this can be tallied to determine the proportional number of Joules that went into securing the network. We will be deploying an ERC-20 token that will be distributed to miners if they call a method to generate tokens. These Joule tokens will be inflationary and be proportionally distributed to the hash rate applied to secure the network. These tokens will be stable coins of their own kind, stable relative to the price of creating hash power.
