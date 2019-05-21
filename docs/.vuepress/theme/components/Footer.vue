@@ -4,6 +4,7 @@
       <li><a href="https://ethereumclassic.org/" target="_blank">Why Ethereum Classic?</a></li>
       <li><a href="https://discordapp.com/invite/MzGu7F" target="_blank">ETC Discord</a></li>
       <li><a href="https://discord.gg/JGEqqmS" target="_blank">0xBitcoin Discord</a></li>
+      <li><a href="https://status.astor.host/" target="_blank">Astor Status Page</a></li>
     </ul>
   </footer>
 </template>
