@@ -1,6 +1,6 @@
 module.exports = {
   title: 'astor.host',
-  description: 'Astor Network Resources',
+  description: 'Astor Testnet is an Ethereum Classic (ETC) testnet that uses SHA3 as its proof of work method. SHA3 allows for a higher performance, and safer block production. Astor is based on the ongoing ECIP-1049.',
   themeConfig: {
     nav: [
       { text: 'astor.host', link: '/' },
