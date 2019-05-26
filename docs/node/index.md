@@ -11,33 +11,37 @@ To use the Astor network, you need to download a node. For the initial implement
 1. `cd parity-ethereum && git checkout sha3`
 1. `curl https://sh.rustup.rs -sSf | sh && source $HOME/.cargo/env`
 1. (Linux) `sudo apt-get update && sudo apt-get install libudev-dev cmake clang`
-1. `sh run.sh`
+1. `./target/debug/parity --chain astor.json --author 0x2958DB51a0b4c458d0aa183E8cFB4f2E95cf6E75 --jsonrpc-hosts all --jsonrpc-interface all --jsonrpc-cors '*'`
 
-If you would like to modify the Parity configuration, specfically the `author` address you want to mine test ether to, change the `run.sh` file.
-1. `./target/debug/parity --chain astor.json`
+If you plan on mining, change the `--author` flag to the address you want to receive the ether to.
 
-## Using a Miner with Parity
+## Running a SHA3 Miner (connects to Parity node)
 
-If you would like to mine on the network, you will need to install a miner to connect to Parity (see below). If not, you can skip the steps below Currently, we have only created a CPU miner in Python, however we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in mining.
+To mine on the network, you will need to install a miner. A miner connects directly to the node, which you installed above. Currently, we have created a CPU toy miner in Python. In the future, we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in optimizing SHA3 miners or want to begin writing your own miner.
 
 1. `git clone https://github.com/antsankov/ethereum-cpu-miner.git && cd ethereum-cpu-miner`
 1. (on Linux) `sudo apt-get update && sudo apt-get install python3.6-dev python3-pip libssl-dev`
 1. `pip3 install -r requirements.txt`
-1. `sh run.sh`
+1. `python3 miner.py http://127.0.0.1:8545 -n 1000000000000000000000000000000`
 
-Make sure to change the `run.sh` to have the `-n` be the number of blocks you want to mine on the testnet. Screenshot below is succesful testnet mine to the author address.
+The `-n` be the number of blocks you want to mine on the testnet.
 
-1. Connect Metamask to `localhost:8545`
+Connect Metamask to `localhost:8545`
 
 ![](/success.png)
 
-## Analytics Client API (Optional)
+## Analytics Client API (Suggested - Put your node on the stats page)
 
-1. `cd .. && git clone https://github.com/snissn/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
+This is a voluntary web socket service that will send your information [stats.astor.host](https://stats.astor.host). You can adjust what instance name is displayed on the webpage by modifying `CONTACT_DETAILS` in `app.json`. 
+
+1. `git clone https://github.com/antsankov/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
 1. `npm install`
-1. `WS_SECRET=asdf npm run start`
+1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ npm run start`
 
-## Analytics Web Server (Optional)
+## Analytics Web Server (Unnecessary - Only run if you need your own network stats page)
+
+Only necessary if you would like to run your own network status webpage. This allows you to run your own [stats.astor.host](https://stats.astor.host).
+
 1. `git clone https://github.com/antsankov/eth-netstats.git && cd eth-netstats`
 1. `sudo apt install npm`
 1. `npm install`
