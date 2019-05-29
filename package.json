@@ -10,7 +10,7 @@
   "author": "Alan Woo (Bin Studio) <alan@bin.am>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.47"
+    "vuepress": "^1.0.0-alpha.48"
   },
   "dependencies": {
     "vue-analytics": "^5.16.4"
