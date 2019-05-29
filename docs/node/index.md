@@ -4,7 +4,7 @@ lang: en-US
 ---
 ![Astor Tiles](/tiles.png)
 
-## Running an Astor Node
+## Running an Astor Node (~30 Minutes)
 To use the Astor network, you need to download a node. For the initial implementation we chose to use Parity, an Ethereum client written in Rust. To install the node, complete the following steps:
 
 1. `git clone https://github.com/antsankov/parity-ethereum.git`
@@ -15,7 +15,7 @@ To use the Astor network, you need to download a node. For the initial implement
 
 If you plan on mining, change the `--author` flag to the address you want to receive the ether to.
 
-## Running a SHA3 Miner (connects to Parity node)
+## Running a SHA3 Miner (~5 Minutes) 
 
 To mine on the network, you will need to install a miner. A miner connects directly to the node, which you installed above. Currently, we have created a CPU toy miner in Python. In the future, we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in optimizing SHA3 miners or want to begin writing your own miner.
 
@@ -26,17 +26,23 @@ To mine on the network, you will need to install a miner. A miner connects direc
 
 The `-n` be the number of blocks you want to mine on the testnet.
 
-Connect Metamask to `localhost:8545`
-
-![](/success.png)
-
-## Analytics Client API (Suggested - Put your node on the stats page)
+## Analytics Client API (Suggested - ~5 Minutes) 
 
 This is a voluntary web socket service that will send your information [stats.astor.host](https://stats.astor.host). You can adjust what instance name is displayed on the webpage by modifying `CONTACT_DETAILS` in `app.json`. 
 
 1. `git clone https://github.com/antsankov/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
 1. `npm install`
 1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ npm run start`
+
+
+## Transacting on the Astor Network
+
+1. Install [Nifty Wallet](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid?hl=en) 
+1. Setup the wallet and Connect Nifty Wallet to `http://localhost:8545`
+![Nifty](/nifty.png)
+1. If you are unable to run a local node, you can also select as a network `https://rpc.astor.host/node`
+1. With Nifty wallet you can send or recieve aETC, and deploy contracts via [Remix](https://remix.ethereum.org)
+1. There is also an [Astor Block explorer](https://explore.astor.host/) which you can use to analyze transactions.
 
 ## Analytics Web Server (Unnecessary - Only run if you need your own network stats page)
 
@@ -48,6 +54,3 @@ Only necessary if you would like to run your own network status webpage. This al
 1. `npm install -g grunt-cli`
 1. `grunt`
 1. `WS_SECRET="asdf" npm start`
-
-
-![Network](/network.gif)

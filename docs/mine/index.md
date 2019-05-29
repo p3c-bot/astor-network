@@ -5,7 +5,7 @@ lang: en-US
 
 # Mine on Astor (SHA3)
 
-Currently, the only way to mine on Astor testnet is using our Python CPU miner. You can follow the tutorial here to start [CPU mining](/node/#using-a-miner-with-parity).
+Currently, the only way to mine on Astor testnet is using our Python CPU miner. You can follow the tutorial here to start [CPU mining](/node/).
 
 ![Astor Tiles](/beaver.png)
 

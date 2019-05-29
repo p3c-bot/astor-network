@@ -12,16 +12,16 @@ lang: en-US
 **Achievements so far:**
 - [ECIP-1049 Moved to Accepted](https://github.com/ethereumclassic/ECIPs/issues/13)
 *January 2019*
-- [Create Astor Full Node Implementation](https://github.com/snissn/parity-ethereum/tree/progpow_guts_hack) *May 2019*
-- [First CPU SHA3 Miner in Python](https://github.com/snissn/ethereum-cpu-miner) *May 2019*
+- [Create Astor Full Node Implementation](https://github.com/antsankov/parity-ethereum/tree/sha3) *May 2019*
+- [First CPU SHA3 Miner in Python](https://github.com/antsankov/ethereum-cpu-miner) *May 2019*
 - [Offical Astor Site Launch](http://astor.host)
 *May 2019*
 
 ## Near Term Goals (2019 - 2020)
 **What we are trying to achieve right now:**
-- Create P2P Mineable Astor Testnet.
+- [Create P2P Mineable Astor Testnet](https://stats.astor.host) *May 2019*
 - Integrate in more than one Ethereum client (Geth, Mantis)
-- Connect Astor to Blockscout block explorer.
+- [Connect Astor to a block explorer](https://explore.astor.host) *May 2019*
 - Create an open-source GPU Miner.
 - Flyclient compatibility.
 - Security audit of Parity implementation.
