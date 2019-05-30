@@ -7,7 +7,8 @@ module.exports = {
       { text: 'Motivation', link: '/motivation/' },
       { text: 'Node', link: '/node/' },
       { text: 'Mine', link: '/mine/' },
-      { text: 'Explore', link: '/explore/' }
+      { text: 'Explore', link: '/explore/' },
+      { text: 'Stats', link: 'https://stats.astor.host/' }
     ]
   },
   head: [
