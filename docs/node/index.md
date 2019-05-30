@@ -11,6 +11,7 @@ To use the Astor network, you need to download a node. For the initial implement
 1. `cd parity-ethereum && git checkout sha3`
 1. `curl https://sh.rustup.rs -sSf | sh && source $HOME/.cargo/env`
 1. (Linux) `sudo apt-get update && sudo apt-get install libudev-dev cmake clang`
+1. `cargo build`
 1. `./target/debug/parity --chain astor.json --author 0x2958DB51a0b4c458d0aa183E8cFB4f2E95cf6E75 --jsonrpc-hosts all --jsonrpc-interface all --jsonrpc-cors '*'`
 
 If you plan on mining, change the `--author` flag to the address you want to receive the ether to.
