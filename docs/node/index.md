@@ -12,9 +12,19 @@ To use the Astor network, you need to download a node. For the initial implement
 1. `curl https://sh.rustup.rs -sSf | sh && source $HOME/.cargo/env`
 1. (Linux) `sudo apt-get update && sudo apt-get install libudev-dev cmake clang`
 1. `cargo build`
-1. `./target/debug/parity --chain astor.json --author 0x2958DB51a0b4c458d0aa183E8cFB4f2E95cf6E75 --jsonrpc-hosts all --jsonrpc-interface all --jsonrpc-cors '*'`
+1. `./target/debug/parity --chain astor.json --author 0x061feb73A68127AE3772d322f4F54a5c691F5876 --jsonrpc-hosts all --jsonrpc-interface all --jsonrpc-cors '*'`
 
-If you plan on mining, change the `--author` flag to the address you want to receive the ether to.
+If you plan on mining, change the `--author` flag to the address you want to receive the ether to. For **Windows**, we recommend either installing a Ubuntu virtual machine or using the [Windows Linux Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Astor .exe coming soon.
+
+![Network](/network.png)
+
+## Analytics Websocket (~5 Minutes) 
+
+This is a voluntary web socket service that will send your information [stats.astor.host](https://stats.astor.host). You can adjust what instance name is displayed on the webpage by modifying `CONTACT_DETAILS` in `app.json`. Make sure node is running first before starting the websocket.
+
+1. `git clone https://github.com/antsankov/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
+1. `npm install`
+1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ npm run start`
 
 ## Running a SHA3 Miner (~5 Minutes) 
 
@@ -26,14 +36,6 @@ To mine on the network, you will need to install a miner. A miner connects direc
 1. `python3 miner.py http://127.0.0.1:8545 -n 1000000000000000000000000000000`
 
 The `-n` be the number of blocks you want to mine on the testnet.
-
-## Analytics Client API (Suggested - ~5 Minutes) 
-
-This is a voluntary web socket service that will send your information [stats.astor.host](https://stats.astor.host). You can adjust what instance name is displayed on the webpage by modifying `CONTACT_DETAILS` in `app.json`. 
-
-1. `git clone https://github.com/antsankov/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
-1. `npm install`
-1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ npm run start`
 
 
 ## Transacting on the Astor Network
