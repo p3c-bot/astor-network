@@ -12,13 +12,14 @@ module.exports = {
     ]
   },
   head: [
-    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-133170751-8' },
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-141280467-3'}],
+    ['script', {},
     `
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
   
-    gtag('config', 'UA-133170751-8');
+    gtag('config', 'UA-141280467-3');
     `],
     ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,maximum-scale=1,maximum-scale=1'}],
     ['meta', {name: "keywords", content: "Astor,ETC Dapps,Ethereum Classic,ETC,Dapps,Immutable Dapps,Ethereum Classic,Onchain Ethereum Classic Transactions,ETC transactions,Ethereum Classic transactions,Ethereum Classic Development,Ethereum Classic Usage,ETC usage,ETC fundamentals,ETC trading,Ether Classic,Ethereum Classic Active addresses,ETC active addresses,ETC mining,Ethereum Classic mining,SHA3,Keccak256,SHA3 Ethereum Classic,SHA3 Mining,ETC Proof of Work change,ECIP-1049,ECIP 1049,Hashing algorithm,PoW,SHA3 PoW,Mine ETC,Atlantis"}],
