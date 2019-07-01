@@ -39,7 +39,7 @@ Alex is an Ethereum Classic developer and enthusiast based in New York city. He 
 
 ### Mike Seiler
 
-Founder and CTO of [Torch](www.torch1.com) a Business Intelligence Platform for Philanthropy and the Social Sector. ERC918 co-author and VP at [0xBitcoin foundation](0xbitcoin.foundation) and founder at [Mike.rs](mike.rs) mining pool. First engineering hire at Moat, which Oracle acquired for $850M in April 2017. Innovated features for mobile app viewability tracking, heat maps, fraud detection, data visualization B.S. and M.Eng. Cornell University Applied Engineering Physics.
+Founder and CTO of [Torch](https://www.torch1.com) a Business Intelligence Platform for Philanthropy and the Social Sector. ERC918 co-author and VP at [0xBitcoin foundation](https://0xbitcoin.foundation) and founder at [Mike.rs](https://mike.rs) mining pool. First engineering hire at Moat, which Oracle acquired for $850M in April 2017. Innovated features for mobile app viewability tracking, heat maps, fraud detection, data visualization B.S. and M.Eng. Cornell University Applied Engineering Physics.
 
 [Mike's Twitter](https://twitter.com/mseiler1)
 
