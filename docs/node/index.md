@@ -36,7 +36,7 @@ To mine on the network, you will need to install a miner. A miner connects direc
 1. `git clone https://github.com/antsankov/ethereum-cpu-miner.git && cd ethereum-cpu-miner`
 1. (on Linux) `sudo apt-get update && sudo apt-get install -y python3.6 python3-pip libssl-dev`
 1. `pip3 install -r requirements.txt`
-1. `python3 miner.py http://127.0.0.1:8545 -n 1000000000000000000000000000000`
+1. `python3.6 miner.py http://127.0.0.1:8545 -n 1000000000000000000000000000000`
 
 The `-n` be the number of blocks you want to mine on the testnet.
 
