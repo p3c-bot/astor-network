@@ -5,7 +5,7 @@ lang: en-US
 ![Astor Tiles](/tiles.png)
 
 ## Running an Astor Node (~30 Minutes)
-To use the Astor network, you need to download a node. For the initial implementation we chose to use Parity, an Ethereum client written in Rust. To install the node, complete the following steps:
+To use the Astor network, you need to download a node. To install the node, complete the following steps:
 
 1. `git clone https://github.com/antsankov/parity-ethereum.git`
 1. `cd parity-ethereum && git checkout sha3`
@@ -16,20 +16,22 @@ To use the Astor network, you need to download a node. For the initial implement
 
 If you plan on mining, change the `--author` flag to the address you want to receive the ether to. For **Windows**, we recommend either installing a Ubuntu virtual machine or using the [Windows Linux Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Astor .exe coming soon.
 
+To confirm you are fully synced see screenshot below:
+
 ![Network](/network.png)
 
 ## Analytics Websocket (~5 Minutes) 
 
-This is a voluntary web socket service that will send your information [stats.astor.host](https://stats.astor.host). Make sure node is running first before starting the websocket.
+This is an optional service that will share your node statistics [stats.astor.host](https://stats.astor.host). Make sure node is running first before starting the websocket.
 
 1. `git clone https://github.com/antsankov/eth-net-intelligence-api.git && cd eth-net-intelligence-api`
-1. (Linux) `sudo apt-get install -y nodejs npm`
+1. (Linux) `sudo apt-get install -y nodejs npm && ln -s /usr/bin/nodejs /usr/bin/node`
 1. `npm install`
-1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ INSTANCE_NAME="🇨🇦TOR-Astor-Mine" npm run start`
+1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ INSTANCE_NAME="**MY_NAME**" npm run start`
 
 ## Running a SHA3 Miner (~5 Minutes) 
 
-To mine on the network, you will need to install a miner. A miner connects directly to the node, which you installed above. Currently, we have created a CPU toy miner in Python. In the future, we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in optimizing SHA3 miners or want to begin writing your own miner.
+To mine on the network, you will need to install a miner. A miner connects directly to the node. We have created a CPU toy miner in Python. In the future, we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in optimizing SHA3 miners.
 
 1. `git clone https://github.com/antsankov/ethereum-cpu-miner.git && cd ethereum-cpu-miner`
 1. (on Linux) `sudo apt-get update && sudo apt-get install -y python3.6 python3-pip libssl-dev`
