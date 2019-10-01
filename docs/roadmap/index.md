@@ -1,13 +1,17 @@
 ---
-title: Explore
+title: Roadmap
 lang: en-US
 ---
 
 # Astor Roadmap
 
-<div class="featured">Astor Place is a local station on the Lexington Avenue Line of the New York City Subway. Completed in 1904, it is one of the original twenty-eight stations in the system.</div>
 
-![](/astor.png)
+![](/roadmap.png)
+
+![](/spec.png)
+
+
+<div class="featured">Astor Place is a local station on the Lexington Avenue Line of the New York City Subway. Completed in 1904, it is one of the original twenty-eight stations in the system.</div>
 
 **Achievements so far:**
 - [ECIP-1049 Moved to Accepted](https://github.com/ethereumclassic/ECIPs/issues/13)

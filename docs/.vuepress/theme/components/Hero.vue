@@ -19,8 +19,8 @@
     </div>
 
     <div class="hero-block build sm-hide">
-      <router-link class="block header" to="/explore/">→ Explore</router-link>
-      <div class="content">See how Astor<br/> is being used.</div>
+      <router-link class="block header" to="/roadmap/">→ Roadmap</router-link>
+      <div class="content">Learn when SHA3<br/> will be adopted.</div>
     </div>
   </div>
 </template>

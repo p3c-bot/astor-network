@@ -30,7 +30,7 @@ sidebar: false
   </ul>
 
   <ul class="intro-block">
-    <li><router-link to="/explore/"><span class="arrow">→</span>Explore</router-link></li>
+    <li><router-link to="/roadmap/"><span class="arrow">→</span>Roadmap</router-link></li>
     <li>Astor Network Stats</li>
     <li>Block Explorer</li>
   </ul>
