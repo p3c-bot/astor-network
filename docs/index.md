@@ -13,6 +13,12 @@ sidebar: false
     <li>Why do we use SHA3 for Proof of Work?</li>
     <li>How does SHA3 help secure Ethereum?</li>
   </ul>
+  
+  <ul class="intro-block">
+    <li><router-link to="/roadmap/"><span class="arrow">→</span>Roadmap</router-link></li>
+    <li>Development Roadmap</li>
+    <li>Miner Spec Sheet</li>
+  </ul>
 
   <ul class="intro-block">
     <li><router-link to="/mine/"><span class="arrow">→</span>Mine</router-link></li>
@@ -27,12 +33,6 @@ sidebar: false
     <li>Which nodes are supported?</li>
     <li>Running a node.</li>
     <li>Wallet support.</li>
-  </ul>
-
-  <ul class="intro-block">
-    <li><router-link to="/roadmap/"><span class="arrow">→</span>Roadmap</router-link></li>
-    <li>Astor Network Stats</li>
-    <li>Block Explorer</li>
   </ul>
 
 </div>

@@ -10,6 +10,11 @@ lang: en-US
 
 ![](/spec.png)
 
+This standard uses the following Keccak256 control hash - if a device can produce this hash it will work for ECIP1049: 
+
+`keccak256("ETC")= 49b019f3320b92b2244c14d064de7e7b09dbc4c649e8650e7aa17e5ce7253294`
+
+![](/control.png)
 
 <div class="featured">Astor Place is a local station on the Lexington Avenue Line of the New York City Subway. Completed in 1904, it is one of the original twenty-eight stations in the system.</div>
 
