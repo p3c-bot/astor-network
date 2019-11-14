@@ -3,27 +3,27 @@ title: Mine
 lang: en-US
 ---
 
-# Mine on Astor (SHA3)
+# Mine on Astor (Keccak256)
 
-Currently, the only way to mine on Astor testnet is using our Python CPU miner. You can follow the tutorial here to start [CPU mining](/node/#running-a-sha3-miner-5-minutes).
+Currently, the only way to mine on Astor testnet is using our Python CPU miner. You can follow the tutorial here to start [CPU mining](/node/#running-a-Keccak256-miner-5-minutes).
 
 ![Astor Tiles](/beaver.png)
 
-The SHA3 algorithm was specfically designed by the Keccak team to be particularly efficient in hardware implementations. If you are interested in building a miner we suggest you use these resources:
+The Keccak256 algorithm was specfically designed by the Keccak team to be particularly efficient in hardware implementations. If you are interested in building a miner we suggest you use these resources:
 
 * [Keccak Implementation documentation](https://keccak.team/files/Keccak-implementation-3.2.pdf), specfically Section 4.
-* [SHA3 Ethereum CPU Miner](https://github.com/snissn/ethereum-cpu-miner)
+* [Keccak256 Ethereum CPU Miner](https://github.com/snissn/ethereum-cpu-miner)
 * [Hardware Performance of SHA-3 Candidates using Multiple FPGA Architectures](https://web.archive.org/web/20120504073240/http://www.ecrypt.eu.org/hash2011/proceedings/hash2011_07.pdf).
 * [ECIP-1049 Proposal and Discussion](https://github.com/ethereumclassic/ECIPs/issues/13)
 * [Which cryptographic hash function does Ethereum use?](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use)
-* [NIST SHA3 Competition Proceedings](https://csrc.nist.gov/projects/hash-functions/sha-3-project)
+* [NIST Keccak256 Competition Proceedings](https://csrc.nist.gov/projects/hash-functions/sha-3-project)
 * [Ethereum EVM Schematic](https://blog.aragon.one/content/images/2018/11/eth_time_machine_graph.jpg)
 ![Keccak](/keccak.jpg)
 
-If you would like to start immediately mining SHA3 for monetary gain, consider researching the 0xBitcoin project as a proving ground for mining hardware:
+If you would like to start immediately mining Keccak256 for monetary gain, consider researching the 0xBitcoin project as a proving ground for mining hardware:
 
-* [0xBitcoin Homepage](https://0xbitcoin.org) - A mineable ERC-20 that uses SHA3 to mint tokens.
-* [Cosmic SHA3 Miner](https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/) - A good template for GPU-optimized SHA3 mining software.
+* [0xBitcoin Homepage](https://0xbitcoin.org) - A mineable ERC-20 that uses Keccak256 to mint tokens.
+* [Cosmic Keccak256 Miner](https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/) - A good template for GPU-optimized Keccak256 mining software.
 * [0xBTC mining stats](https://0x1d00ffff.github.io/0xBTC-Stats/?page=graphs#difficulty) - Tracks difficulty and mining pools over time.
 
 ![Network](/mine.gif)

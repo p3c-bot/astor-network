@@ -29,9 +29,9 @@ This is an optional service that will share your node statistics [stats.astor.ho
 1. `npm install`
 1. `WS_SECRET=asdf WS_SERVER=https://rpc.astor.host/ INSTANCE_NAME="**MY_NAME**" npm run start`
 
-## Running a SHA3 Miner (~5 Minutes) 
+## Running a Keccak256 Miner (~5 Minutes) 
 
-To mine on the network, you will need to install a miner. A miner connects directly to the node. We have created a CPU toy miner in Python. In the future, we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in optimizing SHA3 miners.
+To mine on the network, you will need to install a miner. A miner connects directly to the node. We have created a CPU toy miner in Python. In the future, we will be working on an open source GPU version as well. Please consult [our resources](/mine/) if you are interested in optimizing Keccak256 miners.
 
 1. `git clone https://github.com/antsankov/ethereum-cpu-miner.git && cd ethereum-cpu-miner`
 1. (on Linux) `sudo apt-get update && sudo apt-get install -y python3.6 python3-pip libssl-dev`

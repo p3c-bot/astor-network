@@ -21,8 +21,8 @@ This standard uses the following Keccak256 control hash - if a device can produc
 **Achievements so far:**
 - [ECIP-1049 Moved to Accepted](https://github.com/ethereumclassic/ECIPs/issues/13)
 *January 2019*
-- [Create Astor Full Node Implementation](https://github.com/antsankov/parity-ethereum/tree/sha3) *May 2019*
-- [First CPU SHA3 Miner in Python](https://github.com/antsankov/ethereum-cpu-miner) *May 2019*
+- [Create Astor Full Node Implementation](https://github.com/antsankov/parity-ethereum/tree/Keccak256) *May 2019*
+- [First CPU Keccak256 Miner in Python](https://github.com/antsankov/ethereum-cpu-miner) *May 2019*
 - [Offical Astor Site Launch](http://astor.host)
 *May 2019*
 
@@ -39,6 +39,6 @@ This standard uses the following Keccak256 control hash - if a device can produc
 ## Long Term Goals (2020 and Beyond)
 **What we hope to achieve in the future:**
 - Launch on Ethereum Classic (ETC) mainnet.
-- Open source FPGA design for SHA3 mining.
-- SHA3 Mining Pool software.
-- Built in SHA3 instruction on mobile phones.  
+- Open source FPGA design for Keccak256 mining.
+- Keccak256 Mining Pool software.
+- Built in Keccak256 instruction on mobile phones.  

@@ -5,7 +5,7 @@
 
     <div class="hero-block beginners sm-hide">
       <router-link class="block header" to="/motivation/">→ Motivation</router-link>
-      <div class="content">Learn about SHA3<br/>and Proof of Work.</div>
+      <div class="content">Learn about Keccak256<br/>and Proof of Work.</div>
     </div>
 
     <div class="hero-block learn sm-hide">
@@ -15,12 +15,12 @@
 
     <div class="hero-block use sm-hide">
       <router-link class="block header" to="/mine/">→ Mine</router-link>
-      <div class="content">Start SHA3<br/>mining.</div>
+      <div class="content">Start Keccak256<br/>mining.</div>
     </div>
 
     <div class="hero-block build sm-hide">
       <router-link class="block header" to="/roadmap/">→ Roadmap</router-link>
-      <div class="content">Learn when SHA3<br/> will be adopted.</div>
+      <div class="content">Learn when Keccak256<br/> will be adopted.</div>
     </div>
   </div>
 </template>

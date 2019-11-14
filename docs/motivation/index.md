@@ -5,24 +5,24 @@ lang: en-US
 
 # The History of Astor Testnet
 
-Let's start with the motivation behind the Astor SHA3 Testnet.
+Let's start with the motivation behind the Astor Keccak256 Testnet.
 
 **In early January 2019, Ethereum Classic was [51% attacked](https://medium.com/@slowmist/the-analysis-of-etc-51-attack-from-slowmist-team-728596d76ead) twice.**
 - Attackers were able to acquire 51+% of the hash power (Ethash) on the network.
 - They used this to reverse a series of deposits that they had made on exchanges.
 - Many users throughout the ecosystem tried to mine ETC to protect it, but were unable to respond quickly enough to prevent the attack.
 
-**A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13) was proposed. Its goal was to change ETC's proof of work algorithm to something safer, simpler, and proven. That algorithm is SHA3 (also called Keccak256).**
+**A few days after the attack, [ECIP-1049](https://github.com/ethereumclassic/ECIPs/issues/13) was proposed. Its goal was to change ETC's proof of work algorithm to something safer, simpler, and proven. That algorithm is Keccak256 (also called SHA3).**
 
 ![51](/51.png)
 
 There were three main reasons behind the proposal: 
 
-**Strength.** SHA3 is the current gold standard in terms of hashing algorithms, and it is widely used in high performance and scientfic applications to safely and efficeintly hash data. It was the product of decades of research by the Keccak team, and was the winner of NIST SHA3 competition. ECIP-1049 also recognizes the need for ETC to diversify away from the same hashing algorithm as Ethereum.
+**Strength.** Keccak256 is the current gold standard in terms of hashing algorithms, and it is widely used in high performance and scientfic applications to safely and efficeintly hash data. It was the product of decades of research by the Keccak team, and was the winner of NIST SHA3 competition. ECIP-1049 also recognizes the need for ETC to diversify away from the same hashing algorithm as Ethereum.
 
 ![Hash](/hash.png)
 
-**Transparency.** The SHA3 algorithm has been throughly peer-reviewed and its implementation verfied. With SHA3, block producers around the world have an even platform to competetitvely mine without having to worry about one team having an advantage over another. The 0xBitcoin community had been using SHA3 for over a year and has proven its viability as a proof of work algorithm. 
+**Transparency.** The Keccak256 algorithm has been throughly peer-reviewed and its implementation verfied. With Keccak256, block producers around the world have an even platform to competetitvely mine without having to worry about one team having an advantage over another. The 0xBitcoin community had been using Keccak256 for over a year and has proven its viability as a proof of work algorithm. 
 
 [Full Keccak Implementation Document](https://keccak.team/files/Keccak-implementation-3.2.pdf)
 
@@ -44,6 +44,11 @@ Founder and CTO of [Torch](https://www.torch1.com) a Business Intelligence Platf
 [Mike's Twitter](https://twitter.com/mseiler1)
 
 # Important Resources
+* [Presentation at ETC Summit Vancouver 2019](https://www.youtube.com/watch?v=DV9_RaUFZWQ&)
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DV9_RaUFZWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 * [Interview with Dr. Guido Bertoni, Creator of Keccak](https://www.youtube.com/watch?v=vN7NI0Oi79E)
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/vN7NI0Oi79E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
